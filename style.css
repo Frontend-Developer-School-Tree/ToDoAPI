@@ -1,0 +1,9 @@
+.head{height: 10vh;width: 100%;background-color: rgb(206, 135, 47);}
+h1{color: white; text-transform: uppercase;}
+body{background-color: rgb(247, 247, 247);}
+.centerbutton{width: 100%; height: 10vh;}
+.btn{width:10vh; height:5vh;}
+.btn-outline-primary{color: rgb(206, 135, 47);border-color:  rgb(206, 135, 47);}
+.btn-outline-primary:hover{color:#fff; background-color: rgb(206, 135, 47);border-color:  rgb(206, 135, 47);}
+.btn:focus {outline:0;border:0}
+.btn:active {outline:0;border:0}
