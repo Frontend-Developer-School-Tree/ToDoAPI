@@ -23,7 +23,7 @@ async function getTodo() {
     todo.forEach(element => {
         //creo elementi html con classi 
         const card = document.createElement('div')
-        card.classList.add("card", "col-3", "m-3", "pt-3");
+        card.classList.add("card", "col-3", "m-3", "p-3");
         
         
         const cardBody = document.createElement('div')
@@ -72,3 +72,5 @@ clear.addEventListener('click', ()=>{
     postElement.querySelectorAll('*').forEach(card => card.remove());
 })
 
+//problemi con dom, getelementbytagname o byclassname trasformi in array e poi foreach
+// spread operator
