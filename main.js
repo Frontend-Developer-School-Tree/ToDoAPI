@@ -23,7 +23,7 @@ async function getTodo() {
     todo.forEach(element => {
         //creo elementi html con classi 
         const card = document.createElement('div')
-        card.classList.add("card", "col-4", "m-3");
+        card.classList.add("card", "col-3", "m-3", "pt-3");
         
         
         const cardBody = document.createElement('div')
